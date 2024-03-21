@@ -43,6 +43,15 @@
 		AE5ACFC12BABF43000E5B417 /* HPGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFC02BABF43000E5B417 /* HPGLProgram.m */; };
 		AE5ACFC52BABF99C00E5B417 /* HPGLFrameBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFC42BABF99C00E5B417 /* HPGLFrameBuffer.m */; };
 		AE5ACFC92BABFEA200E5B417 /* HPGLBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFC82BABFEA200E5B417 /* HPGLBase.m */; };
+		AE5ACFD42BAC175300E5B417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFD32BAC175300E5B417 /* AppDelegate.m */; };
+		AE5ACFD72BAC175300E5B417 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFD62BAC175300E5B417 /* SceneDelegate.m */; };
+		AE5ACFDA2BAC175300E5B417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFD92BAC175300E5B417 /* ViewController.m */; };
+		AE5ACFDD2BAC175300E5B417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5ACFDB2BAC175300E5B417 /* Main.storyboard */; };
+		AE5ACFDF2BAC175700E5B417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5ACFDE2BAC175700E5B417 /* Assets.xcassets */; };
+		AE5ACFE22BAC175700E5B417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5ACFE02BAC175700E5B417 /* LaunchScreen.storyboard */; };
+		AE5ACFE52BAC175700E5B417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFE42BAC175700E5B417 /* main.m */; };
+		AE5ACFEC2BAC177500E5B417 /* HPGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ACFEA2BAC177500E5B417 /* HPGLView.m */; };
+		AE5ACFEE2BAC181C00E5B417 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5ACFED2BAC181C00E5B417 /* sample.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +116,21 @@
 		AE5ACFC42BABF99C00E5B417 /* HPGLFrameBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPGLFrameBuffer.m; sourceTree = "<group>"; };
 		AE5ACFC72BABFEA100E5B417 /* HPGLBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPGLBase.h; sourceTree = "<group>"; };
 		AE5ACFC82BABFEA200E5B417 /* HPGLBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPGLBase.m; sourceTree = "<group>"; };
+		AE5ACFD02BAC175300E5B417 /* 03-纹理渲染.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-纹理渲染.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5ACFD22BAC175300E5B417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE5ACFD32BAC175300E5B417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE5ACFD52BAC175300E5B417 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AE5ACFD62BAC175300E5B417 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AE5ACFD82BAC175300E5B417 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE5ACFD92BAC175300E5B417 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE5ACFDC2BAC175300E5B417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE5ACFDE2BAC175700E5B417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5ACFE12BAC175700E5B417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE5ACFE32BAC175700E5B417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5ACFE42BAC175700E5B417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE5ACFEA2BAC177500E5B417 /* HPGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGLView.m; sourceTree = "<group>"; };
+		AE5ACFEB2BAC177500E5B417 /* HPGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGLView.h; sourceTree = "<group>"; };
+		AE5ACFED2BAC181C00E5B417 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +162,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE5ACFCD2BAC175300E5B417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -147,6 +178,7 @@
 				AE5ACF362BABB10000E5B417 /* HPLearnOpenGLES */,
 				AE5ACF592BABB25500E5B417 /* 01-搭建GLES环境 */,
 				AE5ACF7A2BABC77300E5B417 /* 02-绘制三角形 */,
+				AE5ACFD12BAC175300E5B417 /* 03-纹理渲染 */,
 				AE5ACFA22BABEF4800E5B417 /* 03-视频渲染 */,
 				AE5ACF352BABB10000E5B417 /* Products */,
 			);
@@ -159,6 +191,7 @@
 				AE5ACF582BABB25500E5B417 /* 01-搭建GLES环境.app */,
 				AE5ACF792BABC77300E5B417 /* 02-绘制三角形.app */,
 				AE5ACFA12BABEF4700E5B417 /* 03-视频渲染.app */,
+				AE5ACFD02BAC175300E5B417 /* 03-纹理渲染.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,6 +345,35 @@
 			path = HPGLBase;
 			sourceTree = "<group>";
 		};
+		AE5ACFD12BAC175300E5B417 /* 03-纹理渲染 */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ACFE92BAC177500E5B417 /* Render */,
+				AE5ACFD22BAC175300E5B417 /* AppDelegate.h */,
+				AE5ACFD32BAC175300E5B417 /* AppDelegate.m */,
+				AE5ACFD52BAC175300E5B417 /* SceneDelegate.h */,
+				AE5ACFD62BAC175300E5B417 /* SceneDelegate.m */,
+				AE5ACFD82BAC175300E5B417 /* ViewController.h */,
+				AE5ACFD92BAC175300E5B417 /* ViewController.m */,
+				AE5ACFED2BAC181C00E5B417 /* sample.jpg */,
+				AE5ACFDB2BAC175300E5B417 /* Main.storyboard */,
+				AE5ACFDE2BAC175700E5B417 /* Assets.xcassets */,
+				AE5ACFE02BAC175700E5B417 /* LaunchScreen.storyboard */,
+				AE5ACFE32BAC175700E5B417 /* Info.plist */,
+				AE5ACFE42BAC175700E5B417 /* main.m */,
+			);
+			path = "03-纹理渲染";
+			sourceTree = "<group>";
+		};
+		AE5ACFE92BAC177500E5B417 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ACFEB2BAC177500E5B417 /* HPGLView.h */,
+				AE5ACFEA2BAC177500E5B417 /* HPGLView.m */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,6 +445,23 @@
 			productReference = AE5ACFA12BABEF4700E5B417 /* 03-视频渲染.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AE5ACFCF2BAC175300E5B417 /* 03-纹理渲染 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5ACFE62BAC175700E5B417 /* Build configuration list for PBXNativeTarget "03-纹理渲染" */;
+			buildPhases = (
+				AE5ACFCC2BAC175300E5B417 /* Sources */,
+				AE5ACFCD2BAC175300E5B417 /* Frameworks */,
+				AE5ACFCE2BAC175300E5B417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-纹理渲染";
+			productName = "03-纹理渲染";
+			productReference = AE5ACFD02BAC175300E5B417 /* 03-纹理渲染.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -404,6 +483,9 @@
 					AE5ACFA02BABEF4700E5B417 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					AE5ACFCF2BAC175300E5B417 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = AE5ACF2F2BABB10000E5B417 /* Build configuration list for PBXProject "HPLearnOpenGLES" */;
@@ -423,6 +505,7 @@
 				AE5ACF572BABB25500E5B417 /* 01-搭建GLES环境 */,
 				AE5ACF782BABC77300E5B417 /* 02-绘制三角形 */,
 				AE5ACFA02BABEF4700E5B417 /* 03-视频渲染 */,
+				AE5ACFCF2BAC175300E5B417 /* 03-纹理渲染 */,
 			);
 		};
 /* End PBXProject section */
@@ -468,6 +551,17 @@
 				AE5ACFB32BABEF4A00E5B417 /* LaunchScreen.storyboard in Resources */,
 				AE5ACFB02BABEF4A00E5B417 /* Assets.xcassets in Resources */,
 				AE5ACFAE2BABEF4800E5B417 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5ACFCE2BAC175300E5B417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5ACFE22BAC175700E5B417 /* LaunchScreen.storyboard in Resources */,
+				AE5ACFDF2BAC175700E5B417 /* Assets.xcassets in Resources */,
+				AE5ACFDD2BAC175300E5B417 /* Main.storyboard in Resources */,
+				AE5ACFEE2BAC181C00E5B417 /* sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +614,18 @@
 				AE5ACFBD2BABF01C00E5B417 /* HPGLView.m in Sources */,
 				AE5ACFC12BABF43000E5B417 /* HPGLProgram.m in Sources */,
 				AE5ACFC52BABF99C00E5B417 /* HPGLFrameBuffer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5ACFCC2BAC175300E5B417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5ACFDA2BAC175300E5B417 /* ViewController.m in Sources */,
+				AE5ACFEC2BAC177500E5B417 /* HPGLView.m in Sources */,
+				AE5ACFD42BAC175300E5B417 /* AppDelegate.m in Sources */,
+				AE5ACFE52BAC175700E5B417 /* main.m in Sources */,
+				AE5ACFD72BAC175300E5B417 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +692,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				AE5ACFB22BABEF4A00E5B417 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE5ACFDB2BAC175300E5B417 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5ACFDC2BAC175300E5B417 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE5ACFE02BAC175700E5B417 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5ACFE12BAC175700E5B417 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -923,6 +1045,60 @@
 			};
 			name = Release;
 		};
+		AE5ACFE72BAC175700E5B417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5X2378T2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "03-纹理渲染/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.opengles.learning.-3-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE5ACFE82BAC175700E5B417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5X2378T2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "03-纹理渲染/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.opengles.learning.-3-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -967,6 +1143,15 @@
 			buildConfigurations = (
 				AE5ACFB82BABEF4A00E5B417 /* Debug */,
 				AE5ACFB92BABEF4A00E5B417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5ACFE62BAC175700E5B417 /* Build configuration list for PBXNativeTarget "03-纹理渲染" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5ACFE72BAC175700E5B417 /* Debug */,
+				AE5ACFE82BAC175700E5B417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

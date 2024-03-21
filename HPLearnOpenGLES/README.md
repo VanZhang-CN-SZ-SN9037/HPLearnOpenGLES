@@ -1,0 +1,24 @@
+#  学习OpenGL ES
+- 理论文章,参考博文的整理:[08-iOS 多媒体技术|图形编程框架OpenGL、OpenGL ES、Metal要点回顾【渲染流水线、坐标系、着色器程序、GLSL语言等】](https://juejin.cn/post/7347221041570103347)
+- 代码笔记简述:
+    - 01-搭建GLES环境(理论参考:https://menco.space/post/OpenGLES-Lesson-02/)
+    - 02-设置着色器程序,绘制三角形
+        - 理论参考:
+            - https://menco.space/post/OpenGLES-Lesson-03/ 
+            - https://mp.weixin.qq.com/s?__biz=MjM5MTkxOTQyMQ==&mid=2257486728&idx=1&sn=359684a372e33215a1ea7b4f502f9e8c&chksm=a5d41fda92a396cc5ada3c1a0f4628399a9877a24a108a42e290a8f76696d16c1f1eab208886&cur_album_id=2596488701749428226&scene=189#wechat_redirect
+        - 1. 基于 搭建好的 GLES环境
+        - 2. 添加着色器程序(着色器程序,既可以以文件形式独立存在,也可以用字符串形式代替。具体参考文章 https://menco.space/post/OpenGLES-Lesson-03/)
+            - 启动着色器的属性(给glES 渲染传参)
+            - 绑定属性到渲染管线
+        - 3. 设置顶点数据
+            - 包括【位置坐标、颜色值信息】
+            - 关注自定义结构体
+        - 4. 绘制 图元
+        - 5. 将绘制结果提交到 renderbuffer
+        - 6. 关闭着色器属性通道、解绑VBO、RBO、FBO
+    - 03-视频渲染(未完待续)
+        - 整体:视频采集模块+GLES渲染视频模块
+        - 视频采集模块(参照音视频处理部分)
+        - GLES渲染视频模块:
+            -  理论参考:（博主在写纹理处理相关的封装,贴了代码.但我们尚未找到纹理相关的资料说明）(用 OpenGL 渲染视频 https://mp.weixin.qq.com/s?__biz=MjM5MTkxOTQyMQ==&mid=2257486945&idx=1&sn=1238a45e316608329324f8afa16480be&chksm=a5d4183392a391253b7b9e3ec9bfcf437ea034096e416bff5cc1bb4021b726a707a658350588&cur_album_id=2596488701749428226&scene=189#wechat_redirect) 
+

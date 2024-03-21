@@ -1,0 +1,14 @@
+//
+//  AppDelegate.h
+//  HPLearnOpenGLES
+//
+//  Created by Van Zhang on 2024/3/21.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+
+@end
+
